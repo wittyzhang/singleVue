@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mia.miababy",
+    "sha256_cert_fingerprints":
+    ["BA:2E:97:AC:06:9B:FE:02:3F:E4:5C:08:8E:0C:4C:5D:03:7D:A3:BB:75:3A:62:84:08:31:A5:23:86:24:27:9D"]
+  }
+}]

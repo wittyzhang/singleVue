@@ -1,0 +1,17 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "2R37QK3PCS.com.OfficialMiYaBaoBei.MiYaBaoBei",
+                "paths": [
+                    "/brand/*",
+                    "/item-*.html",
+                    "promotion-*.html",
+                    "/special/*",
+                    "/sem/*"
+                ]
+            }
+        ]
+    }
+}

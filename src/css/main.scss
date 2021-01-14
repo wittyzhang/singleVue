@@ -1,0 +1,60 @@
+//-------------------------
+// Base
+//-------------------------
+// @import 'swiper/dist/css/swiper.css';
+@import "base/reset";
+@import "base/mixin";
+$blue_c :#1890ff;
+html{
+  min-height: 100%;
+}
+body{
+  height: 100%;
+  font-size:14px;
+}
+.btn{
+  cursor: pointer;
+  -webkit-tap-highlight-color:rgba(0,0,0,0) ;
+  outline:none;
+  -webkit-tap-highlight-color: transparent;
+}
+[v-cloak] {
+  display: none;
+}
+
+._mt10{margin-top: 10px;}
+._mb10{margin-bottom: 10px;}
+._mr10{margin-right: 10px;}
+._ml10{margin-left: 10px;}
+
+._mt20{margin-top: 20px;}
+._mb20{margin-bottom: 20px;}
+._mr20{margin-right: 20px;}
+._ml20{margin-left: 20px;}
+
+._pt10{padding-top: 10px;}
+._pb10{padding-bottom: 10px;}
+._pr10{padding-right: 10px;}
+._pl10{padding-left: 10px;}
+
+._pt20{padding-top: 20px;}
+._pb20{padding-bottom: 20px;}
+._pr20{padding-right: 20px;}
+._pl20{padding-left: 20px;}
+
+
+.el-checkbox-button__inner, .el-radio,.el-checkbox{
+  font-weight: normal !important;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label,
+.el-radio__input.is-checked+.el-radio__label{
+color: #333333 !important;
+}
+.redColor{
+  color: red;
+}
+.link_btn{
+  color: $blue_c;
+  text-decoration: underline;
+  display: inline-block;
+}
